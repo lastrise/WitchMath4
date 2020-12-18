@@ -12,6 +12,9 @@ class BringFunction : public IFunction {
 public:
     explicit BringFunction(double a);
     double calculate(double x) override;
+    double calculatePhi(double x) override;
+    double df(double x) override;
+    double d2f(double x) override;
 };
 
 
